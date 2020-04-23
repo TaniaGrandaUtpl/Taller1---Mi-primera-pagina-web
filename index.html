@@ -316,6 +316,30 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Enviar datos">
             </form>
         </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Form con validaciones, sintaxis y ejemplo:</p></b>
+        <pre>
+            Nombre de usuario.
+            Campo obligatorio, entre 5-40 carácteres
+            Sólo se permiten letras y números
+
+            &lt;form name="formulario" method="post" action="http://pagina.com/send.php"&gt;
+                &lt;input type="text" name="nombre" placeholder="Su nombre de usuario"
+                       required pattern="[A-Za-z0-9]{5,40}"
+                       title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 40"&gt;
+            &lt;/form&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <form name="formulario" method="post" action="http://pagina.com/send.php">
+            <!-- Nombre de usuario.
+                 Campo obligatorio, entre 5-40 carácteres
+                 Sólo se permiten letras y números -->
+            <input type="text" name="nombre" placeholder="Su nombre de usuario"
+                   required pattern="[A-Za-z0-9]{5,40}"
+                   title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 40">
+            </form> 
+        </pre>
+        
     </section>
     <section>
         <h2>VÍDEO Y AUDIO</h2>
@@ -351,7 +375,7 @@
         <h2>MI EXPERIENCIA</h2>
         <p>Mi experiencia al usar los elementos de html5 ha sido gratifcante, fácil y sencillo de usuarlos.</p>
         <p>La nueva estructura de etiquetas mejorada permite definir por separado el encabezado, la barra de navegación, las secciones de la página web, los textos, los diálogos y el pié de página de los sitios web, 
-            la incorporación de contenidos multimedia (audio y videos), no requiere apoyo de otras aplicaciones (por ejemplo, plugin Adobe Flash Player) y para insertar formularios nose necesita de lógica y diseño para realizarlos.
+            la incorporación de contenidos multimedia (audio y videos), no requiere apoyo de otras aplicaciones (por ejemplo, plugin Adobe Flash Player) y para insertar formularios nose necesita de lógica y diseño para realizarlos y hacer validaciones de los datos.
         </p>
         <p>Usar los elementos vistos nose necesita de mucha teoría y mucha experiencia, porque son sencillos de usarlos para desarrollar e insertar contenido
             en nuestra página web.
