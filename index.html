@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }   
+    </style>
+</head>
+<body>
+    <h1>MI PRIMERA PAGINA WEB</h1>
+    <section>
+        <h2>ENCABEZADOS</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Para escribir encabezados en HTML5 disponemos de las etiquetas h1, h2, h3, h4, h5, h6</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;H1  --> Sintaxis: </b>&lt;h1&gt;Encabezado nivel 1&lt;/h1&gt;</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;H2  --> Sintaxis: </b>&lt;h2&gt;Encabezado nivel 2&lt;/h2&gt;</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;H3  --> Sintaxis: </b>&lt;h3&gt;Encabezado nivel 3&lt;/h3&gt;</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;H4  --> Sintaxis: </b>&lt;h4&gt;Encabezado nivel 4&lt;/h4&gt;</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;H5  --> Sintaxis: </b>&lt;h5&gt;Encabezado nivel 5&lt;/h5&lt;</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;H6  --> Sintaxis: </b>&lt;h6&gt;Encabezado nivel 6&lt;/h6&gt;</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Encabezado nivel 1</h1>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Encabezado nivel 2</h2>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;Encabezado nivel 3</h3>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;Encabezado nivel 4</h4>
+        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Encabezado nivel 5</h5>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp;Encabezado nivel 6</h6>
+    </section>
+    <section>
+        <h2>LISTAS</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Para realizar listas en HTML5 disponemos de las etiquetas ol, ul, li, dl</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;ol&gt;:   </b> representa una lista ordenada de ítems.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;ul&gt;:   </b> representa una lista no ordenada de ítems.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;li&gt;:   </b> representa representa a un ítem en una lista, ya sea ordenada (elemento ol) o no ordenada (elemento ul).</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;dl&gt;:   </b> representa una lista de descripciones. Estas listas, que agrupan nombres (dt) y valores (dd), </p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplos:</p></b>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Ejemplo 1</b></p>
+        <pre>
+            &lt;h5&gt;Receta básica de pan para comenzar a usar tu máquina&lt;/h5&gt;
+            &lt;h5&gt;Ingredientes&lt;/h5&gt;
+            &lt;ul&gt;
+                &lt;li&gt;1 taza de agua tibia&lt;/li&gt;
+                &lt;li&gt;2 cucharadas de azúcar blanco&lt;/li&gt;
+                &lt;li&gt;1 cubo de levadura fresca&lt;/li&gt;
+                &lt;li&gt;1/4 taza de aceite vegetal&lt;/li&gt;
+                &lt;li&gt;3 tazas de harina 000&lt;/li&gt;
+                &lt;li&gt;1 cucharada de sal&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;h5&gt;Procedimiento&lt;/h5&gt;
+            &lt;ol&gt;
+                &lt;li&gt;Coloca el agua, el azúcar y la levadura en la cavidad de la máquina de pan y deja que la levadura se disuelva y haga espuma por 10 minutos.&lt;/li&gt;
+                &lt;li&gt;Agrega el aceite, la harina y la sal a la mezcla.&lt;/li&gt;
+                &lt;li&gt;Selecciona la opción "Básico" o "Pan Blanco".&lt;/li&gt;
+                &lt;li&gt;Presiona "Comenzar".&lt;/li&gt;
+            &lt;/ol&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Ejemplo 1, da como salida:</p></b>
+        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Receta básica de pan para comenzar a usar tu máquina</h5>
+        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Ingredientes</h5>
+        <ul>
+            <li>1 taza de agua tibia</li>
+            <li>2 cucharadas de azúcar blanco</li>
+            <li>1 cubo de levadura fresca</li>
+            <li>1/4 taza de aceite vegetal</li>
+            <li>3 tazas de harina 000</li>
+            <li>1 cucharada de sal</li>
+        </ul>
+        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Procedimiento</h5>
+        <ol>
+            <li>Coloca el agua, el azúcar y la levadura en la cavidad de la máquina de pan y deja que la levadura se disuelva y haga espuma por 10 minutos.</li>
+            <li>Agrega el aceite, la harina y la sal a la mezcla.</li>
+            <li>Selecciona la opción "Básico" o "Pan Blanco".</li>
+            <li>Presiona "Comenzar".</li>
+        </ol>   
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Ejemplo 2</b></p>
+        <pre>
+            &lt;h5&gt;Preguntas y respuestas sobre TDAH&lt;/h5&gt;
+            &lt;dl&gt;
+                &lt;dt&gt;¿Puede un niño tener trastorno por déficit de atención y no hiperactividad?&lt;/dt&gt;
+                &lt;dd&gt;Sí. Esto se conoce como TDAH, predominantemente inatento. Los niños con esta clasificación normalmente soñarán despiertos y tendrán grandes dificultades para concentrarse.&lt;/dd&gt;
+                &lt;dt&gt;¿Existe alguna prueba específica para diagnosticar TDAH?&lt;/dt&gt;
+                &lt;dd&gt;No, no existe un test mágico. Pero los profesionales calificados en asistir la conducta y el desarrollo de los niños conducirán un estudio completo con el fin de determinar si el individio tiene el desorden.&lt;/dd&gt;
+                &lt;dt&gt;¿La explosión de atención en los medios hacia el TDAH ha afectado la frecuencia y precisión con la que los pacientes son diagnosticados con el desorden?&lt;/dt&gt;
+                &lt;dd&gt;Algunas familias desarrollan nociones preconcebidas de que sus hijos pueden tener TDAH y acuden a los especialistas de la salud en busca de una confirmación de su diagnóstico casero. Esto puede causar algunos problemas, particularmente si los padres se ciñen a la idea y siguen buscando hasta encontrar a alguien que confirme su diagnóstico.&lt;/dd&gt;
+            &lt;/dl&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Ejemplo 2, da como salida:</p></b>
+        <h5>&nbsp;&nbsp;&nbsp;&nbsp;Preguntas y respuestas sobre TDAH</h5>
+        <dl>
+            <dt>&nbsp;&nbsp;&nbsp;&nbsp;¿Puede un niño tener trastorno por déficit de atención y no hiperactividad?</dt>
+            <dd>&nbsp;&nbsp;&nbsp;&nbsp;Sí. Esto se conoce como TDAH, predominantemente inatento. Los niños con esta clasificación normalmente soñarán despiertos y tendrán grandes dificultades para concentrarse.</dd>
+            <dt>&nbsp;&nbsp;&nbsp;&nbsp;¿Existe alguna prueba específica para diagnosticar TDAH?</dt>
+            <dd>&nbsp;&nbsp;&nbsp;&nbsp;No, no existe un test mágico. Pero los profesionales calificados en asistir la conducta y el desarrollo de los niños conducirán un estudio completo con el fin de determinar si el individio tiene el desorden.</dd>
+            <dt>&nbsp;&nbsp;&nbsp;&nbsp;¿La explosión de atención en los medios hacia el TDAH ha afectado la frecuencia y precisión con la que los pacientes son diagnosticados con el desorden?</dt>
+            <dd>&nbsp;&nbsp;&nbsp;&nbsp;Algunas familias desarrollan nociones preconcebidas de que sus hijos pueden tener TDAH y acuden a los especialistas de la salud en busca de una confirmación de su diagnóstico casero. Esto puede causar algunos problemas, particularmente si los padres se ciñen a la idea y siguen buscando hasta encontrar a alguien que confirme su diagnóstico.</dd>
+        </dl>
+    </section>
+    <section>
+        <h2>TABLAS</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Para crear tablas en HTML5 disponemos de las siguientes etiquetas:</p>
+        <pre>
+        <b>&lt;caption&gt;</b>: Provee un título para la tabla.
+        <b>&lt;colgroup&gt;</b>: agrupa columnas temáticamente.
+        <b>&lt;col&gt;</b>: aplica atributos comunes y estilos a una o más columnas. Sólo puede ser declarado como hijo de colgroup.
+        <b>&lt;tbody&gt;</b>: representa a un cuerpo de la tabla.
+        <b>&lt;thead&gt;</b>: representa la sección de encabezado de la tabla.
+        <b>&lt;tfoot&gt;</b>: representa la sección de pie de la tabla.
+        <b>&lt;tr&gt;</b>: representa una fila. Puede ser declarado como hijo de tbody, thead, tfoot o table.
+        <b>&lt;td&gt;</b>: representa a una celda regular. Sólo puede ser declarado como hijo de tr.
+        <b>&lt;th&gt;</b>: representa a una celda de encabezado. Sólo puede ser declarado como hijo de tr.
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;style&gt;
+                table, th, td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                }   
+            &lt;/style&gt;
+            &lt;table class="egt"&gt;
+                &lt;caption&gt;Tiempo necesario para viajar desde Philadelphia&lt;/caption&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+                        &lt;th scope="col">Destino &lt;/th&gt;
+                        &lt;th scope="col">En auto &lt;/th&gt;
+                        &lt;th scope="col">En tren &lt;/th&gt;
+                        &lt;th scope="col">En bicicleta &lt;/th&gt;
+                        &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                     &lt;tr&gt;
+                        &lt;td&gt;Nueva York &lt;/td&gt;
+                        &lt;td&gt;1 h 51 min &lt;/td&gt;
+                        &lt;td&gt;1 h 22 min &lt;/td&gt;
+                        &lt;td&gt;8 h 53 min &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Allentown &lt;/td&gt;
+                        &lt;td&gt;1 h 11 min &lt;/td&gt;
+                        &lt;td&gt; - &lt;/td&gt;
+                        &lt;td&gt;6 h 9 min &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+                &lt;tfoot&gt;             
+                    &lt;tr&gt;
+                        &lt;th scope="row"&gt;Promedio &lt;/th&gt;
+                        &lt;th&gt;1 h 24 min &lt;/th&gt;
+                        &lt;th&gt;1 h 22 min &lt;/th&gt;
+                        &lt;th&gt;6 h 54 min &lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/tfoot&gt;
+            &lt;/table&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <table>
+                <caption>&nbsp;&nbsp;&nbsp;&nbsp;Tiempo necesario para viajar desde Philadelphia</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;Destino</th>
+                        <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;En auto</th>
+                        <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;En tren</th>
+                        <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;En bicicleta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;Nueva York</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;1 h 51 min</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;1 h 22 min</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;8 h 53 min</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;Allentown</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;1 h 11 min</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;-</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;6 h 9 min</td>
+                    </tr>
+                </tbody>
+                <tfoot>              
+                    <tr>
+                        <th scope="row">&nbsp;&nbsp;&nbsp;&nbsp;Promedio</th>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;1 h 24 min</th>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;1 h 22 min</th>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;6 h 54 min</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </pre>
+        
+    </section>
+    <section>
+        <h2>IMAGENES</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Para insertar tablas en HTML5 disponemos de las siguiente etiqueta:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;img&gt;:   </b> representa a una imagen, lo cual es un recurso externo que puede ser incrustado en el cuerpo de un documento. La ubicación de dicho recurso externo debe especificarse en el atributo src, el cual contiene un URI que apunta a la ubicación del recurso de imagen.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;img src="img/charles-darwin.jpg"&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <img src="img/charles-darwin.jpg">
+    </section>
+    <section>
+        <h2>FORMULARIO</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Para insertar botones, labels, forms, etc, en HTML5 disponemos de las siguientes etiquetas:</p>
+        
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;button&gt;:   </b>  define un botón en el que se puede hacer clic.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;button type="button"&gt;Click Me!&lt;/button&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <button type="button">Click Me!</button>
+        </pre>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;label&gt;:   </b> representa una etiqueta que puede ser asociada a un control de formulario, y que se supone provee una descripción corta para éste. </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;input&gt;:   </b> especifica un campo de entrada donde el usuario puede ingresar datos.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;label&gt;Nombre completo:  &lt;input type="text" name="nombrecompleto"&gt; &lt;/label&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <label>Nombre completo: <input type="text" name="nombrecompleto"></label>
+        </pre>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;select&gt;:   </b> se usa para crear una lista desplegable.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;label for="cars"&gt;Escoje un carro:&lt;/label&gt;
+            &lt;select id="cars"&gt;
+                &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                &lt;option value="saab"&gt;Saab&lt;/option&gt;
+            &lt;/select&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <label for="cars">Escoje un carro:</label>
+            <select id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </select>
+        </pre>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;textarea&gt;:   </b> define un control de entrada de texto de varias líneas.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;label for="mission">Escriba una descripción:&lt;/label&gt;
+            &lt;textarea id="mission" rows="4" cols="50"&gt;
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi, minus itaque asperiores, aperiam ut assumenda repellendus, molestias perspiciatis expedita quia voluptatibus magni neque dolor repudiandae rem hic quos quo?
+            &lt;/textarea&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <label for="w3mission">Escriba una descripción:</label>
+            <textarea id="w3mission" rows="4" cols="50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi, minus itaque asperiores, aperiam ut assumenda repellendus, molestias perspiciatis expedita quia voluptatibus magni neque dolor repudiandae rem hic quos quo?
+            </textarea>
+        </pre>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;optgroup&gt;:   </b> se usa para agrupar opciones relacionadas en una lista desplegable.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;label for="cars"&gt;Escoje un carro:&lt;/label&gt;
+            &lt;select id="cars"&gt;
+                &lt;optgroup label="Swedish Cars"&gt;
+                    &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                    &lt;option value="saab"&gt;Saab&lt;/option&gt;
+                &lt;/optgroup&gt;
+                &lt;optgroup label="German Cars"&gt;
+                    &lt;option value="mercedes"&gt;Mercedes&lt;/option&gt;
+                    &lt;option value="audi"&gt;Audi&lt;/option&gt;
+                &lt;/optgroup&gt;
+            &lt;/select&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <label for="cars">Escoje un carro:</label>
+            <select id="cars">
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+            </select>
+        </pre>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;form&gt;:   </b>  se usa para crear un formulario HTML para la entrada del usuario.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;form action="../../form-result.php" method="post" target="_blank"&gt;
+                &lt;p&gt;Nombre de usuario: &lt;input type="text" name="usuario"&gt;&lt;/p&gt;      
+                &lt;p&gt;Contraseña: &lt;input type="password" name="pass"&gt;&lt;/p&gt;  
+                &lt;p&gt;&lt;input type="submit" value="Enviar datos"&gt;&lt;/p&gt;
+            &lt;/form&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <form action="../../form-result.php" method="post" target="_blank">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Nombre de usuario: <input type="text" name="usuario"></p>      
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Contraseña: <input type="password" name="pass"></p>   
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Enviar datos"></p>
+            </form>
+        </pre>
+    </section>
+    <section>
+        <h2>VIDEO Y AUDIO</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Para insertar audio y/o video en HTML5 disponemos de las siguientes etiquetas:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;video&gt;:   </b>  incrusta recursos de video en un documento, especificando el URI del recurso en el atributo src.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;video width="320" height="240" controls&gt;
+                &lt;source src="video/Publicidad.mp4" type="video/mp4"&gt;
+            &lt;/video&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <video width="320" height="240" controls>
+                <source src="video/Publicidad.mp4" type="video/mp4">
+            </video>
+        </pre>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;audio&gt;:   </b>  incrusta recursos de audio en un documento, especificando el URI del recurso en el atributo src.</p>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Sintaxis y ejemplo:</p></b>
+        <pre>
+            &lt;audio controls&gt;
+                &lt;source src="audio/Publicidad.mp3" type="audio/mp3"&gt;
+            &lt;/audio&gt;
+        </pre>
+        <b><p>&nbsp;&nbsp;&nbsp;&nbsp;Da como salida:</p></b>
+        <pre>
+            <audio controls>
+                <source src="audio/Publicidad.mp3" type="audio/mp3">
+            </audio>
+        </pre>
+    </section>
+</body>
+</html> 
